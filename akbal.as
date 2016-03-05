@@ -412,7 +412,7 @@ function akabalAttack():void {
 function akbalLustAttack():void {
 	//*Lust Attack - 
 	if(player.hasStatusAffect("Whispered") < 0) {
-		outputText("You hear whispering in your head. Akbal begins speaking to you as he circles you, telling all the ways he'll dominate you once he beats the fight out of you.", false);
+		outputText("You hear whispering in your head. Akbal begins speaking to you as he circles you, telling all the ways he'll dominate you once he beats the shit out of you.", false);
 		//(Lust increase)
 		stats(0,0,0,0,0,0,7+(100-player.inte)/10,0);
 	}	
